@@ -1,5 +1,6 @@
 # Credit-Card-Fraud-Detection
-Mini project on Credit card fraud detection using machine learning and deep learning algorithms 
+Mini project on Credit card fraud detection using machine learning and deep learning algorithms on balanced dataset.
+Algorithms used Logistic regression, K-nearest neighbours, Support vector machines, Decision trees, Random forest, Xgboost, CNN, MLP.
 
 Download the dataset we used here and apply the code given in preprocessing folder. This generates 3 new preprocessed datasets. They are downsampled ,upsampled and imbalanced dataset with preprocessed performed on "Amount" feature.
 
