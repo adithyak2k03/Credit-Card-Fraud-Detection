@@ -10,3 +10,6 @@ Therefore we downsample the majority class by using resample function from sklea
 Upsampling: We can also solve the problem of imbalanced dataset by using upsampling. In this technique we increase the count of minority class to either to the count of majority class or an arbitrarily chosen number and reduce the majority class to that number of records.
 We performed upsampling using the average of every 3 consecutive records and repeat the same for all the minority class records in the dataset.
 
+
+Possibility of error when executing is when using KNN model in web app and all models imbalanced dataset because of size constraint of 25Mb of maximum, i couldnt able to upload these files. So execute the KNN model on imbalanced dataset,generate a pkl file and put it in imbalanced folder. And for imbalanced dataset, split X and y to X train, X test, y train, y test and dump them in a pkl file to "imbalanced" folder. And change the paths when reading csv files or pkl files. 
+Install required packages such as streamlit for web app in you local machine. This should fix all the errors.
