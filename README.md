@@ -1,4 +1,4 @@
-# Wed application for Credit-Card-Fraud-Detection
+# Web application for Credit-Card-Fraud-Detection
 Mini project on Credit card fraud detection using machine learning and deep learning algorithms on balanced dataset.
 Algorithms used Logistic regression, K-nearest neighbours, Support vector machines, Decision trees, Random forest, Xgboost, CNN, MLP.
 
