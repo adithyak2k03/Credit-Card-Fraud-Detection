@@ -13,3 +13,10 @@ We performed upsampling using the average of every 3 consecutive records and rep
 
 The possibility of error when executing is when using the KNN model in the web app and all models imbalanced dataset because of size constraint of 25Mb max-limit in Streamlit applications, I wasn't able to upload these files. So execute the KNN model on the imbalanced dataset, generate a PKL file, and put it in an imbalanced folder. For an imbalanced dataset, split X and y to X train, X test, y train, and y test and dump them in a PKL file to the "imbalanced" folder. And change the paths when reading CSV files or PKL files. 
 Install required packages such as Streamlit for the web app on your local machine. This should fix all the errors.
+
+
+
+Future works:
+
+Write the UI using Flask
+Additional models or other SOTA models for this purpose
